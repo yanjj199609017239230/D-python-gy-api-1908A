@@ -1,0 +1,171 @@
+[ {
+  "uid" : "44ca06b31af5d4b3",
+  "name" : "phone字段异常流_为空1",
+  "time" : {
+    "start" : 1568260310170,
+    "stop" : 1568260310360,
+    "duration" : 190
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "250e959e91156d1",
+  "name" : "全字段正常流4",
+  "time" : {
+    "start" : 1568258640977,
+    "stop" : 1568258641151,
+    "duration" : 174
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb21c317d85ff12a",
+  "name" : "test_run[扣款11]",
+  "time" : {
+    "start" : 1568273520344,
+    "stop" : 1568273520487,
+    "duration" : 143
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8aaffc79e9cf17f3",
+  "name" : "登录",
+  "time" : {
+    "start" : 1568281402694,
+    "stop" : 1568281402797,
+    "duration" : 103
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f1a5ff0be8fa84c",
+  "name" : "test_run[充值]",
+  "time" : {
+    "start" : 1568271932661,
+    "stop" : 1568271932769,
+    "duration" : 108
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b8599310cee858d1",
+  "name" : "修改密码",
+  "time" : {
+    "start" : 1568281402801,
+    "stop" : 1568281402936,
+    "duration" : 135
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53bcd3ba5abe4ee6",
+  "name" : "全字段正常流5",
+  "time" : {
+    "start" : 1568258735406,
+    "stop" : 1568258735572,
+    "duration" : 166
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f022f73112993af3",
+  "name" : "test_run[扣款10]",
+  "time" : {
+    "start" : 1568273520130,
+    "stop" : 1568273520335,
+    "duration" : 205
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6fadd6f80dc760a2",
+  "name" : "test_hello_world",
+  "time" : {
+    "start" : 1568196236911,
+    "stop" : 1568196236912,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7780e85c69f0342d",
+  "name" : "全字段正常流3",
+  "time" : {
+    "start" : 1568258508693,
+    "stop" : 1568258508855,
+    "duration" : 162
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f373ac5c790ddc",
+  "name" : "全字段正常流1",
+  "time" : {
+    "start" : 1568258209481,
+    "stop" : 1568258209713,
+    "duration" : 232
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ccc3458f9981bac",
+  "name" : "注册",
+  "time" : {
+    "start" : 1568281402472,
+    "stop" : 1568281402690,
+    "duration" : 218
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17853fdb015d2f2c",
+  "name" : "phone字段异常流_为空1",
+  "time" : {
+    "start" : 1568260217645,
+    "stop" : 1568260218003,
+    "duration" : 358
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea5fb5bf6768c328",
+  "name" : "全字段正常流6",
+  "time" : {
+    "start" : 1568258935224,
+    "stop" : 1568258935387,
+    "duration" : 163
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1131ef4a257293d",
+  "name" : "test_run[扣款1]",
+  "time" : {
+    "start" : 1568273442941,
+    "stop" : 1568273443081,
+    "duration" : 140
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc21e0ac30b0a68a",
+  "name" : "test_run[充值1]",
+  "time" : {
+    "start" : 1568271932868,
+    "stop" : 1568271933001,
+    "duration" : 133
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6972c82ee92745e3",
+  "name" : "全字段正常流1",
+  "time" : {
+    "start" : 1568257282384,
+    "stop" : 1568257282553,
+    "duration" : 169
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

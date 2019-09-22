@@ -1,0 +1,19 @@
+INFO     tools.log_tool:log_tool.py:33 ----请求用时: 155.382 秒数
+INFO     tools.log_tool:log_tool.py:33 ---------------请求-----------------
+                                       http://api.yansl.com:8084/signup
+                                       User-Agent: python-requests/2.22.0
+                                       Accept-Encoding: gzip, deflate
+                                       Accept: */*
+                                       Connection: keep-alive
+                                       Content-Length: 108
+                                       Content-Type: application/json
+                                       
+                                       b'{"phone": "181-0390-9788", "pwd": "aaaaaaa33333333", "rePwd": "aaaaaaa33333333", "userName": "\\u6211ss1_11"}'
+INFO     tools.log_tool:log_tool.py:33 ---------------响应----------------
+                                       200
+                                       Content-Type: application/json;charset=UTF-8
+                                       Transfer-Encoding: chunked
+                                       Date: Thu, 12 Sep 2019 03:24:05 GMT
+                                       
+                                       {"code":9999,"message":"用户名必须为3到10位的字母与数字组合,并且不能重复；手机号码格式错误；","data":""}
+ERROR    tools.log_tool:log_tool.py:45 Response body != expected_msg, expected_msg is 2000, body is 9999

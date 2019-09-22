@@ -1,0 +1,18 @@
+INFO     tools.log_tool:log_tool.py:33 ----请求用时: 93.303 秒数
+INFO     tools.log_tool:log_tool.py:33 ---------------请求-----------------
+                                       http://api.yansl.com:8084/login
+                                       User-Agent: python-requests/2.22.0
+                                       Accept-Encoding: gzip, deflate
+                                       Accept: */*
+                                       Connection: keep-alive
+                                       Content-Length: 45
+                                       Content-Type: application/json
+                                       
+                                       b'{"pwd": "bgks12ws", "userName": "bv23cfg456"}'
+INFO     tools.log_tool:log_tool.py:33 ---------------响应----------------
+                                       200
+                                       Content-Type: application/json;charset=UTF-8
+                                       Transfer-Encoding: chunked
+                                       Date: Thu, 12 Sep 2019 09:41:45 GMT
+                                       
+                                       {"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTY4MjgzMTA1ODYwLCJ1c2VySWQiOjI2ODAsInVzZXJOYW1lIjoiYnYyM2NmZzQ1NiJ9","userName":"bv23cfg456"}}

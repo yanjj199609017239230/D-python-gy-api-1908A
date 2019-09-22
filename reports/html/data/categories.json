@@ -1,0 +1,109 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError",
+      "children" : [ {
+        "name" : "全字段正常流1",
+        "uid" : "6972c82ee92745e3",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1568257282384,
+          "stop" : 1568257282553,
+          "duration" : 169
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "全字段正常流3",
+        "uid" : "7780e85c69f0342d",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1568258508693,
+          "stop" : 1568258508855,
+          "duration" : 162
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "全字段正常流4",
+        "uid" : "250e959e91156d1",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1568258640977,
+          "stop" : 1568258641151,
+          "duration" : 174
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "全字段正常流5",
+        "uid" : "53bcd3ba5abe4ee6",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1568258735406,
+          "stop" : 1568258735572,
+          "duration" : 166
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "全字段正常流6",
+        "uid" : "ea5fb5bf6768c328",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1568258935224,
+          "stop" : 1568258935387,
+          "duration" : 163
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "phone字段异常流_为空1",
+        "uid" : "17853fdb015d2f2c",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1568260217645,
+          "stop" : 1568260218003,
+          "duration" : 358
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "phone字段异常流_为空1",
+        "uid" : "44ca06b31af5d4b3",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1568260310170,
+          "stop" : 1568260310360,
+          "duration" : 190
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_run[充值]",
+        "uid" : "8f1a5ff0be8fa84c",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1568271932661,
+          "stop" : 1568271932769,
+          "duration" : 108
+        },
+        "flaky" : true,
+        "parameters" : [ "{'data': None, 'expect': '2000', 'headers': {}, 'json': {'accountName': 'xuerje213', 'changeMoney': 200}, 'method': 1, 'params': None, 'status_code': 200, 'url': '/acc/recharge'}" ]
+      } ],
+      "uid" : "a0017ad855102fea08b8682d27fec4ca"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

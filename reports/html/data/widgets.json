@@ -1,0 +1,133 @@
+{
+  "summary" : {
+    "reportName" : "Allure Report",
+    "testRuns" : [ ],
+    "statistic" : {
+      "failed" : 8,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 17
+    },
+    "time" : {
+      "start" : 1568196236911,
+      "stop" : 1568281402936,
+      "duration" : 85166025,
+      "minDuration" : 1,
+      "maxDuration" : 358,
+      "sumDuration" : 2800
+    }
+  },
+  "environment" : [ {
+    "values" : [ "Production       " ],
+    "name" : "Stand"
+  }, {
+    "values" : [ "63.0   " ],
+    "name" : "Browser.Version"
+  }, {
+    "values" : [ "Chrome         " ],
+    "name" : "Browser"
+  } ],
+  "suites" : {
+    "total" : 3,
+    "items" : [ {
+      "uid" : "95579579da5900e93c39a34ccff40e5b",
+      "name" : "test_case.user1",
+      "statistic" : {
+        "failed" : 8,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 13
+      }
+    }, {
+      "uid" : "86abcc46617c603d802c3e378b13740e",
+      "name" : "test_case",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      }
+    }, {
+      "uid" : "f0a9603375d749ec9567ebad0169ddc6",
+      "name" : "test_case.demo",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      }
+    } ]
+  },
+  "history-trend" : [ {
+    "statistic" : {
+      "failed" : 8,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 17
+    }
+  } ],
+  "behaviors" : {
+    "total" : 6,
+    "items" : [ {
+      "uid" : "c66352b2939da5d23e5aa52e5280b3b8",
+      "name" : "商城后台系统",
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 1
+      }
+    }, {
+      "uid" : "3ab424e51b4c92a3f317d44ef6c84db2",
+      "name" : "一级标题",
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 1
+      }
+    }, {
+      "uid" : "137d3854114171e2bbe26758f255f055",
+      "name" : "一级归类",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      }
+    } ]
+  },
+  "executors" : [ ],
+  "categories" : {
+    "total" : 1,
+    "items" : [ {
+      "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d",
+      "name" : "Product defects",
+      "statistic" : {
+        "failed" : 8,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 8
+      }
+    } ]
+  },
+  "launches" : [ ]
+}

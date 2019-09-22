@@ -1,0 +1,2 @@
+ERROR    tools.log_tool:log_tool.py:45 RequestException url: http://api.yansl.com:8084/user/changepwd
+ERROR    tools.log_tool:log_tool.py:45 Value for header {token: ['token']} must be of type str or bytes, not <class 'list'>

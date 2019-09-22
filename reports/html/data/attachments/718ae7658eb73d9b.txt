@@ -1,0 +1,8 @@
+{
+    "code": 2000,
+    "message": "登录成功",
+    "data": {
+        "token": "eyJ0aW1lT3V0IjoxNTYzNDUxMjg4MjY3LCJ1c2VySWQiOjQwMywidXNlck5hbWUiOiIxM3MzMiJ9",
+        "userName": "13s32"
+    }
+}

@@ -1,0 +1,265 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "SKY-20190805LNB",
+    "children" : [ {
+      "name" : "5736-MainThread",
+      "children" : [ {
+        "name" : "phone字段异常流_为空1",
+        "uid" : "44ca06b31af5d4b3",
+        "parentUid" : "3226c36b6c8be0f920e9408642f6dadd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1568260310170,
+          "stop" : 1568260310360,
+          "duration" : 190
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3226c36b6c8be0f920e9408642f6dadd"
+    }, {
+      "name" : "10292-MainThread",
+      "children" : [ {
+        "name" : "全字段正常流4",
+        "uid" : "250e959e91156d1",
+        "parentUid" : "20b537111a322c2bdd472f5785e561c8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1568258640977,
+          "stop" : 1568258641151,
+          "duration" : 174
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "20b537111a322c2bdd472f5785e561c8"
+    }, {
+      "name" : "6848-MainThread",
+      "children" : [ {
+        "name" : "test_run[扣款11]",
+        "uid" : "cb21c317d85ff12a",
+        "parentUid" : "7f3006bda99d7a2e975ccd35683dc349",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568273520344,
+          "stop" : 1568273520487,
+          "duration" : 143
+        },
+        "flaky" : false,
+        "parameters" : [ "{'data': None, 'expect': '2000', 'headers': {}, 'json': {'accountName': 'stdg2623', 'changeMoney': 25}, 'method': 1, 'params': None, 'status_code': 200, 'url': '/acc/charge'}" ]
+      }, {
+        "name" : "test_run[扣款10]",
+        "uid" : "f022f73112993af3",
+        "parentUid" : "7f3006bda99d7a2e975ccd35683dc349",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568273520130,
+          "stop" : 1568273520335,
+          "duration" : 205
+        },
+        "flaky" : false,
+        "parameters" : [ "{'data': None, 'expect': '2000', 'headers': {}, 'json': {'accountName': 'stdg2623', 'changeMoney': 20}, 'method': 1, 'params': None, 'status_code': 200, 'url': '/acc/charge'}" ]
+      } ],
+      "uid" : "7f3006bda99d7a2e975ccd35683dc349"
+    }, {
+      "name" : "11252-MainThread",
+      "children" : [ {
+        "name" : "登录",
+        "uid" : "8aaffc79e9cf17f3",
+        "parentUid" : "90c8503397545e71ab24a0cbc3c2984a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568281402694,
+          "stop" : 1568281402797,
+          "duration" : 103
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "修改密码",
+        "uid" : "b8599310cee858d1",
+        "parentUid" : "90c8503397545e71ab24a0cbc3c2984a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568281402801,
+          "stop" : 1568281402936,
+          "duration" : 135
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "注册",
+        "uid" : "7ccc3458f9981bac",
+        "parentUid" : "90c8503397545e71ab24a0cbc3c2984a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568281402472,
+          "stop" : 1568281402690,
+          "duration" : 218
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "90c8503397545e71ab24a0cbc3c2984a"
+    }, {
+      "name" : "5808-MainThread",
+      "children" : [ {
+        "name" : "test_run[充值]",
+        "uid" : "8f1a5ff0be8fa84c",
+        "parentUid" : "6664f5bd3acdb853ed7dcb9f6a734379",
+        "status" : "failed",
+        "time" : {
+          "start" : 1568271932661,
+          "stop" : 1568271932769,
+          "duration" : 108
+        },
+        "flaky" : true,
+        "parameters" : [ "{'data': None, 'expect': '2000', 'headers': {}, 'json': {'accountName': 'xuerje213', 'changeMoney': 200}, 'method': 1, 'params': None, 'status_code': 200, 'url': '/acc/recharge'}" ]
+      }, {
+        "name" : "test_run[充值1]",
+        "uid" : "fc21e0ac30b0a68a",
+        "parentUid" : "6664f5bd3acdb853ed7dcb9f6a734379",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568271932868,
+          "stop" : 1568271933001,
+          "duration" : 133
+        },
+        "flaky" : false,
+        "parameters" : [ "{'data': None, 'expect': '2000', 'headers': {}, 'json': {'accountName': 'stdg2623', 'changeMoney': 20}, 'method': 1, 'params': None, 'status_code': 200, 'url': '/acc/recharge'}" ]
+      } ],
+      "uid" : "6664f5bd3acdb853ed7dcb9f6a734379"
+    }, {
+      "name" : "11896-MainThread",
+      "children" : [ {
+        "name" : "全字段正常流5",
+        "uid" : "53bcd3ba5abe4ee6",
+        "parentUid" : "ef04bb2cbf8c1543cfbd79def6be3d3e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1568258735406,
+          "stop" : 1568258735572,
+          "duration" : 166
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ef04bb2cbf8c1543cfbd79def6be3d3e"
+    }, {
+      "name" : "7176-MainThread",
+      "children" : [ {
+        "name" : "test_hello_world",
+        "uid" : "6fadd6f80dc760a2",
+        "parentUid" : "dd31226b4e6fcdeed0a5c2b74502abb3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568196236911,
+          "stop" : 1568196236912,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dd31226b4e6fcdeed0a5c2b74502abb3"
+    }, {
+      "name" : "10812-MainThread",
+      "children" : [ {
+        "name" : "全字段正常流3",
+        "uid" : "7780e85c69f0342d",
+        "parentUid" : "ad7cf4ff80ebe27ff972c10d306f2a90",
+        "status" : "failed",
+        "time" : {
+          "start" : 1568258508693,
+          "stop" : 1568258508855,
+          "duration" : 162
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ad7cf4ff80ebe27ff972c10d306f2a90"
+    }, {
+      "name" : "7504-MainThread",
+      "children" : [ {
+        "name" : "全字段正常流1",
+        "uid" : "6f373ac5c790ddc",
+        "parentUid" : "c77d45274b1d0509d4a1b604602c26dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568258209481,
+          "stop" : 1568258209713,
+          "duration" : 232
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c77d45274b1d0509d4a1b604602c26dd"
+    }, {
+      "name" : "2688-MainThread",
+      "children" : [ {
+        "name" : "phone字段异常流_为空1",
+        "uid" : "17853fdb015d2f2c",
+        "parentUid" : "aaf35d4877132ebbd1cce6571eada6ad",
+        "status" : "failed",
+        "time" : {
+          "start" : 1568260217645,
+          "stop" : 1568260218003,
+          "duration" : 358
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "aaf35d4877132ebbd1cce6571eada6ad"
+    }, {
+      "name" : "11092-MainThread",
+      "children" : [ {
+        "name" : "全字段正常流6",
+        "uid" : "ea5fb5bf6768c328",
+        "parentUid" : "204753f6516d898d0e45006064c6f824",
+        "status" : "failed",
+        "time" : {
+          "start" : 1568258935224,
+          "stop" : 1568258935387,
+          "duration" : 163
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "204753f6516d898d0e45006064c6f824"
+    }, {
+      "name" : "9812-MainThread",
+      "children" : [ {
+        "name" : "test_run[扣款1]",
+        "uid" : "c1131ef4a257293d",
+        "parentUid" : "f45c3c541845a1923c24da71d4e7b9c4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568273442941,
+          "stop" : 1568273443081,
+          "duration" : 140
+        },
+        "flaky" : false,
+        "parameters" : [ "{'data': None, 'expect': '2000', 'headers': {}, 'json': {'accountName': 'stdg2623', 'changeMoney': 20}, 'method': 1, 'params': None, 'status_code': 200, 'url': '/acc/charge'}" ]
+      } ],
+      "uid" : "f45c3c541845a1923c24da71d4e7b9c4"
+    }, {
+      "name" : "8444-MainThread",
+      "children" : [ {
+        "name" : "全字段正常流1",
+        "uid" : "6972c82ee92745e3",
+        "parentUid" : "afca722b045403605f20a0152776ca71",
+        "status" : "failed",
+        "time" : {
+          "start" : 1568257282384,
+          "stop" : 1568257282553,
+          "duration" : 169
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "afca722b045403605f20a0152776ca71"
+    } ],
+    "uid" : "894297c81c50cb9ea247e5ba8833fcd6"
+  } ]
+}

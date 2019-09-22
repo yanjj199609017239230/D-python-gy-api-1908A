@@ -1,0 +1,10 @@
+---------------请求-----------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 90
+Content-Type: application/json
+
+b'{"phone": "18667101947", "pwd": "bgks12ws", "rePwd": "bgks12ws", "userName": "bv23cfgg56"}'

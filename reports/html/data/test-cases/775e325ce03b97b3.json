@@ -1,0 +1,110 @@
+{
+  "uid" : "775e325ce03b97b3",
+  "name" : "全字段正常流1",
+  "fullName" : "test_case.user1.test_signup1#test_change_pwd_var",
+  "historyId" : "e5149f882d94cec2551f5cb9c337769a",
+  "time" : {
+    "start" : 1568257076498,
+    "stop" : 1568257076680,
+    "duration" : 182
+  },
+  "status" : "failed",
+  "statusDetails" : {
+    "message" : "AssertionError",
+    "trace" : "@allure.epic(\"商城后台系统\")\n    @allure.feature(\"用户模块\")\n    @allure.story(\"注册接口\")\n    @allure.title('全字段正常流1')\n    def test_change_pwd_var():\n        # config/conf.py里面配置GY_API_URL,模板快捷键demo_conf_api\n        url = conf.GY_API_URL + '/signup'\n    \n        req = {\n            \"phone\": \"181-0390-9788\",\n            \"pwd\": \"aaaaaaa33333333\",\n            \"rePwd\": \"aaaaaaa33333333\",\n            \"userName\": \"111111111\"\n            }\n    \n        resp = request_tool.post_request(url, json=req)\n        body = resp.json()\n        # 判断响应码\n        assert_tool.assert_equal(resp.status_code, 200)\n        allure.attach(\"预期结果:{},实际结果:{}\".format(200,resp.status_code),\"响应状态码断言\",allure.attachment_type.TEXT)\n        assert_tool.assert_equal(resp.status_code,200)\n        # 自定义断言\n>       assert_tool.assert_equal(body['code'], 2000)\n\ntest_case\\user1\\test_signup1.py:37: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nbody = 9999, expected_msg = 2000\n\n    def assert_equal(body, expected_msg):\n        \"\"\"\n        验证response body中是否等于预期字符串\n        :param body:\n        :param expected_msg:\n        :return:\n        \"\"\"\n        try:\n>           assert body == expected_msg\nE           AssertionError\n\nvenv\\lib\\site-packages\\tools\\assert_tool.py:35: AssertionError",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusDetails" : {
+      "message" : "AssertionError",
+      "trace" : "@allure.epic(\"商城后台系统\")\n    @allure.feature(\"用户模块\")\n    @allure.story(\"注册接口\")\n    @allure.title('全字段正常流1')\n    def test_change_pwd_var():\n        # config/conf.py里面配置GY_API_URL,模板快捷键demo_conf_api\n        url = conf.GY_API_URL + '/signup'\n    \n        req = {\n            \"phone\": \"181-0390-9788\",\n            \"pwd\": \"aaaaaaa33333333\",\n            \"rePwd\": \"aaaaaaa33333333\",\n            \"userName\": \"111111111\"\n            }\n    \n        resp = request_tool.post_request(url, json=req)\n        body = resp.json()\n        # 判断响应码\n        assert_tool.assert_equal(resp.status_code, 200)\n        allure.attach(\"预期结果:{},实际结果:{}\".format(200,resp.status_code),\"响应状态码断言\",allure.attachment_type.TEXT)\n        assert_tool.assert_equal(resp.status_code,200)\n        # 自定义断言\n>       assert_tool.assert_equal(body['code'], 2000)\n\ntest_case\\user1\\test_signup1.py:37: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nbody = 9999, expected_msg = 2000\n\n    def assert_equal(body, expected_msg):\n        \"\"\"\n        验证response body中是否等于预期字符串\n        :param body:\n        :param expected_msg:\n        :return:\n        \"\"\"\n        try:\n>           assert body == expected_msg\nE           AssertionError\n\nvenv\\lib\\site-packages\\tools\\assert_tool.py:35: AssertionError",
+      "flaky" : false
+    },
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e47fc3737996d4a4",
+      "name" : "请求",
+      "source" : "e47fc3737996d4a4.txt",
+      "type" : "text/plain",
+      "size" : 333
+    }, {
+      "uid" : "8daeb177e0dbcf1",
+      "name" : "响应",
+      "source" : "8daeb177e0dbcf1.txt",
+      "type" : "text/plain",
+      "size" : 287
+    }, {
+      "uid" : "30d90d21ef44897e",
+      "name" : "响应状态码断言",
+      "source" : "30d90d21ef44897e.txt",
+      "type" : "text/plain",
+      "size" : 33
+    }, {
+      "uid" : "9e2d10829665574e",
+      "name" : "log",
+      "source" : "9e2d10829665574e.txt",
+      "type" : "text/plain",
+      "size" : 1461
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "商城后台系统"
+  }, {
+    "name" : "story",
+    "value" : "注册接口"
+  }, {
+    "name" : "feature",
+    "value" : "用户模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.user1"
+  }, {
+    "name" : "suite",
+    "value" : "test_signup1"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "SKY-20190805LNB"
+  }, {
+    "name" : "thread",
+    "value" : "9432-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.user1.test_signup1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "source" : "775e325ce03b97b3.json",
+  "statusDetailsSafe" : {
+    "message" : "AssertionError",
+    "trace" : "@allure.epic(\"商城后台系统\")\n    @allure.feature(\"用户模块\")\n    @allure.story(\"注册接口\")\n    @allure.title('全字段正常流1')\n    def test_change_pwd_var():\n        # config/conf.py里面配置GY_API_URL,模板快捷键demo_conf_api\n        url = conf.GY_API_URL + '/signup'\n    \n        req = {\n            \"phone\": \"181-0390-9788\",\n            \"pwd\": \"aaaaaaa33333333\",\n            \"rePwd\": \"aaaaaaa33333333\",\n            \"userName\": \"111111111\"\n            }\n    \n        resp = request_tool.post_request(url, json=req)\n        body = resp.json()\n        # 判断响应码\n        assert_tool.assert_equal(resp.status_code, 200)\n        allure.attach(\"预期结果:{},实际结果:{}\".format(200,resp.status_code),\"响应状态码断言\",allure.attachment_type.TEXT)\n        assert_tool.assert_equal(resp.status_code,200)\n        # 自定义断言\n>       assert_tool.assert_equal(body['code'], 2000)\n\ntest_case\\user1\\test_signup1.py:37: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nbody = 9999, expected_msg = 2000\n\n    def assert_equal(body, expected_msg):\n        \"\"\"\n        验证response body中是否等于预期字符串\n        :param body:\n        :param expected_msg:\n        :return:\n        \"\"\"\n        try:\n>           assert body == expected_msg\nE           AssertionError\n\nvenv\\lib\\site-packages\\tools\\assert_tool.py:35: AssertionError",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}

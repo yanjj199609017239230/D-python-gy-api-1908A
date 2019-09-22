@@ -1,0 +1,7 @@
+---------------响应----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 12 Sep 2019 09:37:47 GMT
+
+{"code":9999,"message":"该用户名已存在","data":""}

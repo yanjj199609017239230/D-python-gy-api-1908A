@@ -1,0 +1,10 @@
+---------------请求-----------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 45
+Content-Type: application/json
+
+b'{"pwd": "bgks12ws", "userName": "bv237fg456"}'

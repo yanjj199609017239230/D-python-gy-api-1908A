@@ -1,0 +1,7 @@
+---------------响应----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 12 Sep 2019 03:16:54 GMT
+
+{"code":2000,"message":"注册成功；用户ID:2532","data":{"userName":"eyr7328","accoutId":2531,"cstId":2553,"userId":2532}}

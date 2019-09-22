@@ -1,0 +1,107 @@
+{
+  "uid" : "a6a2835a7695ae33",
+  "name" : "全字段正常流1",
+  "fullName" : "test_case.user1.test_signup1#test_change_pwd_var",
+  "historyId" : "e5149f882d94cec2551f5cb9c337769a",
+  "time" : {
+    "start" : 1568256960161,
+    "stop" : 1568256960394,
+    "duration" : 233
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "74b9aacaefd3cf93",
+      "name" : "请求",
+      "source" : "74b9aacaefd3cf93.txt",
+      "type" : "text/plain",
+      "size" : 311
+    }, {
+      "uid" : "ea0e6fd92fd8c374",
+      "name" : "响应",
+      "source" : "ea0e6fd92fd8c374.txt",
+      "type" : "text/plain",
+      "size" : 279
+    }, {
+      "uid" : "1c6312cd01454994",
+      "name" : "响应状态码断言",
+      "source" : "1c6312cd01454994.txt",
+      "type" : "text/plain",
+      "size" : 33
+    }, {
+      "uid" : "56039aa3de5b3a47",
+      "name" : "响应code",
+      "source" : "56039aa3de5b3a47.txt",
+      "type" : "text/plain",
+      "size" : 35
+    }, {
+      "uid" : "323d24f36a7bac81",
+      "name" : "log",
+      "source" : "323d24f36a7bac81.txt",
+      "type" : "text/plain",
+      "size" : 1326
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "商城后台系统"
+  }, {
+    "name" : "feature",
+    "value" : "用户模块"
+  }, {
+    "name" : "story",
+    "value" : "注册接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.user1"
+  }, {
+    "name" : "suite",
+    "value" : "test_signup1"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "SKY-20190805LNB"
+  }, {
+    "name" : "thread",
+    "value" : "8820-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.user1.test_signup1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "source" : "a6a2835a7695ae33.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

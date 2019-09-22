@@ -1,0 +1,19 @@
+INFO     tools.log_tool:log_tool.py:33 ----请求用时: 157.712 秒数
+INFO     tools.log_tool:log_tool.py:33 ---------------请求-----------------
+                                       http://api.yansl.com:8084/signup
+                                       User-Agent: python-requests/2.22.0
+                                       Accept-Encoding: gzip, deflate
+                                       Accept: */*
+                                       Connection: keep-alive
+                                       Content-Length: 87
+                                       Content-Type: application/json
+                                       
+                                       b'{"phone": "181 0390 9787", "pwd": "aaa3333", "rePwd": "aaa3333", "userName": "347dfhg"}'
+INFO     tools.log_tool:log_tool.py:33 ---------------响应----------------
+                                       200
+                                       Content-Type: application/json;charset=UTF-8
+                                       Transfer-Encoding: chunked
+                                       Date: Thu, 12 Sep 2019 03:25:39 GMT
+                                       
+                                       {"code":9999,"message":"手机号码格式错误；","data":""}
+ERROR    tools.log_tool:log_tool.py:45 Response body != expected_msg, expected_msg is 2000, body is 9999

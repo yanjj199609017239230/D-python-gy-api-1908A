@@ -1,0 +1,98 @@
+{
+  "uid" : "fc3a250163c03371",
+  "name" : "登录",
+  "fullName" : "test_case.test_liu_cheng#test_liu_cheng2",
+  "historyId" : "7de043fbd7c45861b3e20e25184cb8e2",
+  "time" : {
+    "start" : 1568281347936,
+    "stop" : 1568281348063,
+    "duration" : 127
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "262cb483b8585daf",
+      "name" : "请求",
+      "source" : "262cb483b8585daf.txt",
+      "type" : "text/plain",
+      "size" : 271
+    }, {
+      "uid" : "f1b9a3c33e122b3b",
+      "name" : "响应",
+      "source" : "f1b9a3c33e122b3b.txt",
+      "type" : "text/plain",
+      "size" : 317
+    }, {
+      "uid" : "122667cc25bb2d70",
+      "name" : "响应状态码断言",
+      "source" : "122667cc25bb2d70.txt",
+      "type" : "text/plain",
+      "size" : 33
+    }, {
+      "uid" : "8db93d218ecc425b",
+      "name" : "响应code",
+      "source" : "8db93d218ecc425b.txt",
+      "type" : "text/plain",
+      "size" : 35
+    }, {
+      "uid" : "7ae7254e7eaa595d",
+      "name" : "log",
+      "source" : "7ae7254e7eaa595d.txt",
+      "type" : "text/plain",
+      "size" : 1324
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_liu_cheng"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "SKY-20190805LNB"
+  }, {
+    "name" : "thread",
+    "value" : "5448-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_liu_cheng"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "source" : "fc3a250163c03371.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

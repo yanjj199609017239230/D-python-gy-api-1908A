@@ -1,0 +1,7 @@
+---------------响应----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 12 Sep 2019 09:43:27 GMT
+
+{"code":2000,"message":"注册成功；用户ID:2685","data":{"userName":"bv2gcfgg56","accoutId":2684,"cstId":2706,"userId":2685}}

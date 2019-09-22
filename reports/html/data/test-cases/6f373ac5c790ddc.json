@@ -1,0 +1,119 @@
+{
+  "uid" : "6f373ac5c790ddc",
+  "name" : "全字段正常流1",
+  "fullName" : "test_case.user1.test_signup1#test_zhu_ce1",
+  "historyId" : "949f3b9837d09885b32d4db2fd81e0e1",
+  "time" : {
+    "start" : 1568258209481,
+    "stop" : 1568258209713,
+    "duration" : 232
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : true
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ea79b9471458c5f5",
+      "name" : "请求",
+      "source" : "ea79b9471458c5f5.txt",
+      "type" : "text/plain",
+      "size" : 310
+    }, {
+      "uid" : "4e5d5eec7555aafb",
+      "name" : "响应",
+      "source" : "4e5d5eec7555aafb.txt",
+      "type" : "text/plain",
+      "size" : 278
+    }, {
+      "uid" : "aa0f4d770cf42dd0",
+      "name" : "响应状态码断言",
+      "source" : "aa0f4d770cf42dd0.txt",
+      "type" : "text/plain",
+      "size" : 33
+    }, {
+      "uid" : "f991682c36d6fee4",
+      "name" : "响应code",
+      "source" : "f991682c36d6fee4.txt",
+      "type" : "text/plain",
+      "size" : 35
+    }, {
+      "uid" : "a5c8867a3398d213",
+      "name" : "log",
+      "source" : "a5c8867a3398d213.txt",
+      "type" : "text/plain",
+      "size" : 1324
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "商城后台系统"
+  }, {
+    "name" : "feature",
+    "value" : "用户模块"
+  }, {
+    "name" : "story",
+    "value" : "注册接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.user1"
+  }, {
+    "name" : "suite",
+    "value" : "test_signup1"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "SKY-20190805LNB"
+  }, {
+    "name" : "thread",
+    "value" : "7504-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.user1.test_signup1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b80bc2cf192cd729",
+      "status" : "broken",
+      "statusDetails" : "TypeError: unhashable type: 'dict'",
+      "time" : {
+        "start" : 1568258140080,
+        "stop" : 1568258140080,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6f373ac5c790ddc.json",
+  "statusDetailsSafe" : {
+    "flaky" : true
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,18 @@
+INFO     tools.log_tool:log_tool.py:33 ----请求用时: 214.318 秒数
+INFO     tools.log_tool:log_tool.py:33 ---------------请求-----------------
+                                       http://api.yansl.com:8084/signup
+                                       User-Agent: python-requests/2.22.0
+                                       Accept-Encoding: gzip, deflate
+                                       Accept: */*
+                                       Connection: keep-alive
+                                       Content-Length: 83
+                                       Content-Type: application/json
+                                       
+                                       b'{"phone": "18103609886", "pwd": "aba333", "rePwd": "aba333", "userName": "eyr7328"}'
+INFO     tools.log_tool:log_tool.py:33 ---------------响应----------------
+                                       200
+                                       Content-Type: application/json;charset=UTF-8
+                                       Transfer-Encoding: chunked
+                                       Date: Thu, 12 Sep 2019 03:16:54 GMT
+                                       
+                                       {"code":2000,"message":"注册成功；用户ID:2532","data":{"userName":"eyr7328","accoutId":2531,"cstId":2553,"userId":2532}}

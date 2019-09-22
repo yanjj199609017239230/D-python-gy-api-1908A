@@ -1,0 +1,11 @@
+---------------请求-----------------
+http://api.yansl.com:8084/user/changepwd
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNTY4MjgzMjA3NDkxLCJ1c2VySWQiOjI2ODUsInVzZXJOYW1lIjoiYnYyZ2NmZ2c1NiJ9
+Content-Length: 100
+Content-Type: application/json
+
+b'{"newPwd": "bgks12wfg2", "oldPwd": "bgks12wfg2", "reNewPwd": "bgks12wfg2", "userName": "bv2gcfgg56"}'

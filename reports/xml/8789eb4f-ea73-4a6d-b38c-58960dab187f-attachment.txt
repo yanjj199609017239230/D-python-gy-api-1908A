@@ -1,0 +1,10 @@
+---------------请求-----------------
+http://api.yansl.com:8084/acc/charge
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 46
+Content-Type: application/json
+
+b'{"accountName": "stdg2623", "changeMoney": 25}'

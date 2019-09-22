@@ -1,0 +1,7 @@
+---------------响应----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 12 Sep 2019 07:30:48 GMT
+
+{"code":2000,"message":"扣款成功,扣款金额:20分;剩余金额:120分。","data":""}

@@ -1,0 +1,7 @@
+---------------响应----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 12 Sep 2019 09:37:47 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTY4MjgyODY3MzIzLCJ1c2VySWQiOjI2NjMsInVzZXJOYW1lIjoiYnYyMzdmZzQ1NiJ9","userName":"bv237fg456"}}

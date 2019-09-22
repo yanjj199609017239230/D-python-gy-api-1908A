@@ -1,0 +1,245 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "一级归类",
+    "children" : [ {
+      "name" : "二级归类",
+      "children" : [ {
+        "name" : "三级归类",
+        "children" : [ {
+          "name" : "test_hello_world",
+          "uid" : "6fadd6f80dc760a2",
+          "parentUid" : "0dedc709b40ff5c5190c57d1679fab63",
+          "status" : "passed",
+          "time" : {
+            "start" : 1568196236911,
+            "stop" : 1568196236912,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "0dedc709b40ff5c5190c57d1679fab63"
+      } ],
+      "uid" : "eaafa3f49dca0f05c9dea4eb54342531"
+    } ],
+    "uid" : "137d3854114171e2bbe26758f255f055"
+  }, {
+    "name" : "商城后台系统",
+    "children" : [ {
+      "name" : "用户模块",
+      "children" : [ {
+        "name" : "注册接口",
+        "children" : [ {
+          "name" : "全字段正常流1",
+          "uid" : "6972c82ee92745e3",
+          "parentUid" : "7387753e5ed85b0171a3be4788174a8f",
+          "status" : "failed",
+          "time" : {
+            "start" : 1568257282384,
+            "stop" : 1568257282553,
+            "duration" : 169
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "全字段正常流1",
+          "uid" : "6f373ac5c790ddc",
+          "parentUid" : "7387753e5ed85b0171a3be4788174a8f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1568258209481,
+            "stop" : 1568258209713,
+            "duration" : 232
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "全字段正常流3",
+          "uid" : "7780e85c69f0342d",
+          "parentUid" : "7387753e5ed85b0171a3be4788174a8f",
+          "status" : "failed",
+          "time" : {
+            "start" : 1568258508693,
+            "stop" : 1568258508855,
+            "duration" : 162
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "全字段正常流4",
+          "uid" : "250e959e91156d1",
+          "parentUid" : "7387753e5ed85b0171a3be4788174a8f",
+          "status" : "failed",
+          "time" : {
+            "start" : 1568258640977,
+            "stop" : 1568258641151,
+            "duration" : 174
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "全字段正常流5",
+          "uid" : "53bcd3ba5abe4ee6",
+          "parentUid" : "7387753e5ed85b0171a3be4788174a8f",
+          "status" : "failed",
+          "time" : {
+            "start" : 1568258735406,
+            "stop" : 1568258735572,
+            "duration" : 166
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "全字段正常流6",
+          "uid" : "ea5fb5bf6768c328",
+          "parentUid" : "7387753e5ed85b0171a3be4788174a8f",
+          "status" : "failed",
+          "time" : {
+            "start" : 1568258935224,
+            "stop" : 1568258935387,
+            "duration" : 163
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "phone字段异常流_为空1",
+          "uid" : "17853fdb015d2f2c",
+          "parentUid" : "7387753e5ed85b0171a3be4788174a8f",
+          "status" : "failed",
+          "time" : {
+            "start" : 1568260217645,
+            "stop" : 1568260218003,
+            "duration" : 358
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "phone字段异常流_为空1",
+          "uid" : "44ca06b31af5d4b3",
+          "parentUid" : "7387753e5ed85b0171a3be4788174a8f",
+          "status" : "failed",
+          "time" : {
+            "start" : 1568260310170,
+            "stop" : 1568260310360,
+            "duration" : 190
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7387753e5ed85b0171a3be4788174a8f"
+      } ],
+      "uid" : "bfc367a2ecfbbbc945644a36c6e4f752"
+    } ],
+    "uid" : "c66352b2939da5d23e5aa52e5280b3b8"
+  }, {
+    "name" : "一级标题",
+    "children" : [ {
+      "name" : "二级标题",
+      "children" : [ {
+        "name" : "三级标题",
+        "children" : [ {
+          "name" : "test_run[充值]",
+          "uid" : "8f1a5ff0be8fa84c",
+          "parentUid" : "6e9602cd196d6d63ace00660f7097db2",
+          "status" : "failed",
+          "time" : {
+            "start" : 1568271932661,
+            "stop" : 1568271932769,
+            "duration" : 108
+          },
+          "flaky" : true,
+          "parameters" : [ "{'data': None, 'expect': '2000', 'headers': {}, 'json': {'accountName': 'xuerje213', 'changeMoney': 200}, 'method': 1, 'params': None, 'status_code': 200, 'url': '/acc/recharge'}" ]
+        }, {
+          "name" : "test_run[充值1]",
+          "uid" : "fc21e0ac30b0a68a",
+          "parentUid" : "6e9602cd196d6d63ace00660f7097db2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1568271932868,
+            "stop" : 1568271933001,
+            "duration" : 133
+          },
+          "flaky" : false,
+          "parameters" : [ "{'data': None, 'expect': '2000', 'headers': {}, 'json': {'accountName': 'stdg2623', 'changeMoney': 20}, 'method': 1, 'params': None, 'status_code': 200, 'url': '/acc/recharge'}" ]
+        }, {
+          "name" : "test_run[扣款1]",
+          "uid" : "c1131ef4a257293d",
+          "parentUid" : "6e9602cd196d6d63ace00660f7097db2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1568273442941,
+            "stop" : 1568273443081,
+            "duration" : 140
+          },
+          "flaky" : false,
+          "parameters" : [ "{'data': None, 'expect': '2000', 'headers': {}, 'json': {'accountName': 'stdg2623', 'changeMoney': 20}, 'method': 1, 'params': None, 'status_code': 200, 'url': '/acc/charge'}" ]
+        }, {
+          "name" : "test_run[扣款10]",
+          "uid" : "f022f73112993af3",
+          "parentUid" : "6e9602cd196d6d63ace00660f7097db2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1568273520130,
+            "stop" : 1568273520335,
+            "duration" : 205
+          },
+          "flaky" : false,
+          "parameters" : [ "{'data': None, 'expect': '2000', 'headers': {}, 'json': {'accountName': 'stdg2623', 'changeMoney': 20}, 'method': 1, 'params': None, 'status_code': 200, 'url': '/acc/charge'}" ]
+        }, {
+          "name" : "test_run[扣款11]",
+          "uid" : "cb21c317d85ff12a",
+          "parentUid" : "6e9602cd196d6d63ace00660f7097db2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1568273520344,
+            "stop" : 1568273520487,
+            "duration" : 143
+          },
+          "flaky" : false,
+          "parameters" : [ "{'data': None, 'expect': '2000', 'headers': {}, 'json': {'accountName': 'stdg2623', 'changeMoney': 25}, 'method': 1, 'params': None, 'status_code': 200, 'url': '/acc/charge'}" ]
+        } ],
+        "uid" : "6e9602cd196d6d63ace00660f7097db2"
+      } ],
+      "uid" : "e1e8da706a7fc056a0ceb851497fd287"
+    } ],
+    "uid" : "3ab424e51b4c92a3f317d44ef6c84db2"
+  }, {
+    "name" : "注册",
+    "uid" : "7ccc3458f9981bac",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1568281402472,
+      "stop" : 1568281402690,
+      "duration" : 218
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "登录",
+    "uid" : "8aaffc79e9cf17f3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1568281402694,
+      "stop" : 1568281402797,
+      "duration" : 103
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "修改密码",
+    "uid" : "b8599310cee858d1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1568281402801,
+      "stop" : 1568281402936,
+      "duration" : 135
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  } ]
+}

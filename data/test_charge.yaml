@@ -1,0 +1,24 @@
+- data: null
+  expect: '2000'
+  headers: {}
+  json:
+    accountName: stdg2623
+    changeMoney: 20
+  method: 1
+  params: null
+  status_code: 200
+  test_case: 扣款1
+  url: /acc/charge
+
+- data: null
+  expect: '2000'
+  headers: {}
+  json:
+    accountName: stdg2623
+    changeMoney: 25
+  method: 1
+  params: null
+  status_code: 200
+  test_case: 扣款1
+  url: /acc/charge
+
